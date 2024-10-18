@@ -1,0 +1,61 @@
+CRITICAL - 2024-10-09 08:27:00 --> Trying to access array offset on value of type bool
+#0 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Admin/Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#2 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-09 08:29:41 --> Trying to access array offset on value of type bool
+#0 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Admin/Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#2 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-09 08:30:55 --> Trying to access array offset on value of type bool
+#0 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Admin/Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#2 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-09 08:36:23 --> Trying to access array offset on value of type bool
+#0 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Admin/Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#2 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-09 08:37:16 --> Trying to access array offset on value of type bool
+#0 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Admin/Auth.php(110): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(926): App\Modules\Auth\Controllers\Admin\Auth->index()
+#2 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-09 14:13:49 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/app/Modules/Common/Controllers/Admin/Autoupdate.php(37): file_get_contents()
+#2 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(365): require_once('/var/www/kymati...')
+#3 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#4 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 [internal function]: spl_autoload_call()
+#7 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(877): class_exists()
+#8 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->startController()
+#9 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-09 15:08:59 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/kymatictulpacreations.io/app/Modules/Common/Controllers/Admin/Autoupdate.php(37): file_get_contents()
+#2 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(365): require_once('/var/www/kymati...')
+#3 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#4 /var/www/kymatictulpacreations.io/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 [internal function]: spl_autoload_call()
+#7 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(877): class_exists()
+#8 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(402): CodeIgniter\CodeIgniter->startController()
+#9 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#11 {main}

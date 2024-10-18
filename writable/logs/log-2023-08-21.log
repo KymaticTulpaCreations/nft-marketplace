@@ -1,0 +1,63 @@
+CRITICAL - 2023-08-21 10:16:31 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 10:17:44 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 10:22:17 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 10:22:20 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 10:24:52 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 10:24:53 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-08-21 16:04:23 --> Unable to connect to the database.
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(45): CodeIgniter\Controller->initController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}

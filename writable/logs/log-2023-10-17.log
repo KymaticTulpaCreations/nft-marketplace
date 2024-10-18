@@ -1,0 +1,8 @@
+CRITICAL - 2023-10-17 13:11:23 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Models/Common_model.php on line 63
+#0 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Models/Common_model.php(63): CodeIgniter\Database\BaseBuilder->orderBy()
+#1 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/Home.php(1346): App\Modules\Website\Models\common_model->where_rows()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_updadteOnwer()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#6 {main}

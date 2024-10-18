@@ -1,0 +1,9 @@
+CRITICAL - 2024-10-14 02:46:12 --> Unable to connect to the database.
+#0 /var/www/kymatictulpacreations.io/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/kymatictulpacreations.io/system/Controller.php(130): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/kymatictulpacreations.io/app/Modules/Auth/Controllers/Customer/BaseController.php(49): CodeIgniter\Controller->initController()
+#3 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(899): App\Modules\Auth\Controllers\Customer\BaseController->initController()
+#4 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/kymatictulpacreations.io/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/kymatictulpacreations.io/index.php(64): CodeIgniter\CodeIgniter->run()
+#7 {main}

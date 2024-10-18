@@ -1,0 +1,47 @@
+CRITICAL - 2023-10-14 09:45:07 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_trx_info()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-14 09:45:15 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_trx_info()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-14 09:48:08 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_trx_info()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-14 09:48:10 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_trx_info()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-14 09:48:29 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_trx_info()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-10-14 12:06:29 --> Object of class stdClass could not be converted to string
+#0 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/Home.php(1331): App\Libraries\Blockchain_lib->getOwnerbyTokeid()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(926): App\Modules\Website\Controllers\Home->get_updadteOnwer()
+#2 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-10-14 16:37:10 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 /var/www/html/nftbox/bluemoonnft.com/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/html/nftbox/bluemoonnft.com/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/html/nftbox/bluemoonnft.com/app/Modules/Website/Controllers/BaseController.php(63): spl_autoload_call()
+#4 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(899): App\Modules\Website\Controllers\BaseController->initController()
+#5 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(407): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/nftbox/bluemoonnft.com/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/nftbox/bluemoonnft.com/index.php(64): CodeIgniter\CodeIgniter->run()
+#8 {main}
